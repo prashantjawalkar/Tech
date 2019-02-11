@@ -9,9 +9,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import Utulity.ScreenSh;
 
 public class Demo 
 {
@@ -40,7 +43,10 @@ public class Demo
 				System.out.println("Link Test Pass ==> "+url);
 			}
 			else
+			{
 				System.out.println("Link Test Failed ==> "+url);
+				ScreenSh.captureScreenshot(driver,"welcome");
+			}
 	  }
 	  
 	  @BeforeMethod
@@ -48,7 +54,7 @@ public class Demo
 	  {
 		  System.setProperty("webdriver.gecko.driver", "D:\\geckodriver.exe");
 		  driver = new FirefoxDriver();
-		  driver.get("http://techsumtechnology.com");
+		  driver.get("http://bsiotr.org");
 		  driver.manage().timeouts().implicitlyWait(1000, TimeUnit.SECONDS);
 	  }
 

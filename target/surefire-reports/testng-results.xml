@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75887" started-at="2019-02-11T04:45:34Z" finished-at="2019-02-11T04:46:50Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75887" started-at="2019-02-11T04:45:34Z" finished-at="2019-02-11T04:46:50Z">
+      <class name="demo.Demo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demo.Demo@327471b5]" name="beforeMethod" is-config="true" duration-ms="13519" started-at="2019-02-11T04:45:34Z" finished-at="2019-02-11T04:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testWebsite()[pri:0, instance:demo.Demo@327471b5]" name="testWebsite" duration-ms="60771" started-at="2019-02-11T04:45:47Z" finished-at="2019-02-11T04:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebsite -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demo.Demo@327471b5]" name="afterMethod" is-config="true" duration-ms="1565" started-at="2019-02-11T04:46:48Z" finished-at="2019-02-11T04:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- demo.Demo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
